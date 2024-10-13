@@ -1,0 +1,28 @@
+.card-bem {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-bem__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-bem__body {
+    padding: 15px;
+  }
+  
+  .card-bem__title {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .card-bem__description {
+    font-size: 14px;
+    color: #666;
+  }
+  

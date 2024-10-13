@@ -1,0 +1,72 @@
+/* Block: nav-bar */
+/* Element: __logo, __menu, __search, etc. */
+/* Modifier: (not used in this example, but could be something like --active, --large, etc.) */
+
+.nav-bar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-bar__logo {
+    color: white;
+  }
+  
+  .nav-bar__logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav-bar__menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar__menu-item {
+    margin: 0 15px;
+  }
+  
+  .nav-bar__menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-bar__menu-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .nav-bar__search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bar__search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .nav-bar__search-button {
+    padding: 6px 12px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-bar__search-button:hover {
+    background-color: #ff2065;
+  }
+  

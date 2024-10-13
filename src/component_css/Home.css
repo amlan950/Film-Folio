@@ -1,0 +1,65 @@
+/* Search bar styling */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search-bar-input {
+  padding: 15px 20px;
+  width: 350px;
+  font-size: 18px;
+  border: 2px solid #6a4dff;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+.search-bar-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(135deg, #6a4dff, #3f51b5);
+  border: none;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.5);
+}
+
+.search-bar-btn:hover {
+  background: linear-gradient(135deg, #3f51b5, #6a4dff);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(106, 77, 255, 0.7);
+}
+
+/* Movie Cards */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-details {
+  margin-top: 10px;
+}
