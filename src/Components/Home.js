@@ -16,7 +16,7 @@ export default function MovieSearch() {
     if (!term) return; // Don't fetch if search term is empty
     setLoading(true); // Start loading
 
-    const apiKey = "5f731a6c"; // Replace with your OMDb API key
+    const apiKey = "777d9323"; // Replace with your OMDb API key
     const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${term}`;
 
     try {
